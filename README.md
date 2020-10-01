@@ -20,7 +20,6 @@ python card_game.py
 ## Preview
 
 <img src="https://raw.githubusercontent.com/radonintro1234/cards-war-game-python/master/ScreenShots/1.png">
-
 <img src="https://raw.githubusercontent.com/radonintro1234/cards-war-game-python/master/ScreenShots/2.png">
 
 ## Contributing
