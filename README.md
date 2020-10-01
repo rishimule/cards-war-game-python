@@ -13,8 +13,8 @@ git clone https://github.com/radonintro1234/cards-war-game-python.git
 ## Usage
 
 ```bash
-cd blackjack-python
-python blackjack.py
+cd cards-war-game-python
+python card_game.py 
 ```
 
 ## Preview
