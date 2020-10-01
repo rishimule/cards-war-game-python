@@ -145,6 +145,9 @@ def play_game():
 	"""
 	Start The Game
 	"""
+	print("")
+	print("-"*100)
+	print("-"*100)
 
 	#START A NEW DECK......
 
@@ -164,7 +167,13 @@ def play_game():
 	    player_two.add_cards(new_deck.deal_one())
 
 	print(player_one)
+
 	print(player_two)
+
+	print("-"*100)
+	print("-"*100)
+
+	print("\n")
 
 	#START LOGIC
 
@@ -178,14 +187,24 @@ def play_game():
 	    print(f"Round {round_no}")
 
 	    if len(player_one.player_cards)==0:
-	        print("\nPlayer Radon out of Cards.")
-	        print("Player NEON wins.\n")
+	        print("-"*100)
+	        print("\nPlayer Radon out of Cards.\n")
+	        print("-"*100)
+	        print("-"*100)
+	        print("\nPlayer NEON wins.\n")
+	        print("-"*100)
+	        print("-"*100)
 	        game_on = False
 	        break
 
 	    if len(player_two.player_cards)==0:
-	        print("\nPlayer Neon out of Cards.")
-	        print("Player RADON wins.\n")
+	        print("-"*100)
+	        print("\nPlayer Neon out of Cards.\n")
+	        print("-"*100)
+	        print("-"*100)
+	        print("\nPlayer RADON wins.\n")
+	        print("-"*100)
+	        print("-"*100)
 	        game_on = False
 	        break
 
@@ -233,14 +252,24 @@ def play_game():
 	            # Check to see if a player is out of cards:
 
 	            if len(player_one.player_cards) < 5:
-	                print("Player One unable to play war! Game Over at War")
-	                print("Player Two Wins!")
+	                print("-"*100)
+	                print("\nPlayer One unable to play war! Game Over at War.\n")
+	                print("-"*100)
+	                print("-"*100)
+	                print("\nPlayer Two Wins!\n")
+	                print("-"*100)
+	                print("-"*100)
 	                game_on = False
 	                break
 
 	            elif len(player_two.player_cards) < 5:
-	                print("Player Two unable to play war! Game Over at War")
-	                print("Player One Wins!")
+	                print("-"*100)
+	                print("\nPlayer Two unable to play war! Game Over at War.\n")
+	                print("-"*100)
+	                print("-"*100)
+	                print("\nPlayer One Wins!\n")
+	                print("-"*100)
+	                print("-"*100)
 	                game_on = False
 	                break
 	            # Otherwise, we're still at war, so we'll add the next cards
