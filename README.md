@@ -4,7 +4,7 @@ A simple Card War game project coded in Python 3.8.
 
 ## Installation
 
-Use the package manager [git](https://git-scm.com/) to install BlackJack.
+Use the package manager [git](https://git-scm.com/) to download and install Card-Wars-Game.
 
 ```bash
 git clone https://github.com/radonintro1234/cards-war-game-python.git
