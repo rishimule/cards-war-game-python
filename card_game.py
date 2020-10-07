@@ -45,6 +45,7 @@ class Card:
     """
 
     def __init__(self,rank,suit):
+        """Init Method for CARD class"""
 
         self.rank = rank
         self.suit = suit
@@ -66,6 +67,7 @@ class Deck:
     """
 
     def __init__(self):
+        """Init method for DECK class"""
 
         self.cardlist = []
 
@@ -109,6 +111,7 @@ class Player():
     """
 
     def __init__(self, name):
+        """Init method for PLAYER class"""
 
         self.name = name
 
@@ -283,5 +286,6 @@ def play_game():
 '''
 
 if __name__ == '__main__':
+    """Start The Game"""
 
 	play_game()
