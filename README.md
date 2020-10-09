@@ -7,14 +7,14 @@ A simple Card War game project coded in Python 3.8.
 Use the package manager [git](https://git-scm.com/) to download and install Card-Wars-Game.
 
 ```bash
-git clone https://github.com/radonintro1234/cards-war-game-python.git
+$ git clone https://github.com/radonintro1234/cards-war-game-python.git
 ```
 
 ## Usage
 
 ```bash
-cd cards-war-game-python
-python card_game.py 
+$ cd cards-war-game-python
+$ python card_game.py 
 ```
 
 ## Preview
