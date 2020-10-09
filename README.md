@@ -1,6 +1,16 @@
 # Cards-War-Game-pythom
+<p>
+<img src="https://img.shields.io/github/issues/radonintro1234/cards-war-game-python">
+<img src="https://img.shields.io/github/forks/radonintro1234/cards-war-game-python">
+<img src="https://img.shields.io/github/stars/radonintro1234/cards-war-game-python">
+<img src="https://img.shields.io/github/license/radonintro1234/cards-war-game-python">
+</p>
 
 A simple Card War game project coded in Python 3.8.
+
+
+
+
 
 ## Installation
 
